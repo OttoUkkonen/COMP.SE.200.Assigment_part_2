@@ -4,7 +4,7 @@ import file from "../src/add.js"
 //var file = require ("../src/add")
 const expect = chai.expect
 
-describe("test1", () => {
+describe("test2", () => {
     it("adds positive number to positive number", () =>{
         expect(file(3,6)).to.equal(9)
     });
