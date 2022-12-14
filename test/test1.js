@@ -9,4 +9,7 @@ describe("test1", () => {
     it("adds positive number to positive number", () =>{
         expect(file(3,6)).to.equal(9)
     });
+    it("adds positive number to positive number", () =>{
+        expect(file(3,-5)).to.equal(-2)
+    });
    })
