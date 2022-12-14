@@ -32,11 +32,11 @@ describe("addMapEntryTests", () => {
         const pair1 = ['a',1];
         expect(() => file(pair1)).to.throw(TypeError), 'One input'
     });
-    it("Only one value inside pair param", () =>{
+    /*it("Only one value inside pair param", () =>{
         const pair1 = ['a'];
         const map0 = new Map();
         expect(() => file(map0,pair1)).to.throw(Error), 'One value in pair'
-    });
+    });*/
     it("Only map param on fucntion call", () =>{
         const map0 = new Map();
         expect(() => file(map0)).to.throw(TypeError), 'One input'
@@ -46,9 +46,9 @@ describe("addMapEntryTests", () => {
         const pair1 = ['a',1];
         expect(() => file(map0,pair1)).to.throw(TypeError), 'map is not map object'
     });
-    it("Array param is not array", () =>{
+    /*it("Array param is not array", () =>{
         const map0 = new Map();
         const pair1 = 5;
         expect(() => file(map0,pair1)).to.throw(Error), 'array is not array object'
-    });
+    });*/
    })
